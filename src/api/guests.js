@@ -1,6 +1,5 @@
 import { API } from "../constants";
 
-/** Fetches an array of guests from the API */
 export async function getGuests() {
   try {
     const response = await fetch(API + "/guests");
@@ -12,7 +11,6 @@ export async function getGuests() {
   }
 }
 
-/** Fetches a single guest by ID from the API */
 export async function getGuest(id) {
   try {
     const response = await fetch(API + "/guests/" + id);

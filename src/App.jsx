@@ -1,6 +1,6 @@
 import { useState } from "react";
-import GuestDetails from "./GuestDetails";
-import GuestList from "./GuestList";
+import GuestDetails from "./guests/GuestDetails";
+import GuestList from "./guests/GuestList";
 
 export default function App() {
   const [guestId, setGuestId] = useState(null);
